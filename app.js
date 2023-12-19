@@ -3,8 +3,8 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 app.use(express.json());
-app.listen(3001, () => {
-    console.log("Server running on port 3000");
+app.listen(8080, () => {
+    console.log("Server running on port 8080");
 });
 
 const students = [
